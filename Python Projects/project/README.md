@@ -1,0 +1,14 @@
+# THE VALHALLA PROJECT by Juan Castro Piccolo
+#### Video Demo: https://www.youtube.com/watch?v=nB1JLEiXXSw
+
+#### Description:
+
+**The Valhalla Project** is an interactive game where you can initially choose a class for your character, select your character's name, and then roll some dice to randomly determine your stats. These are “strength,” “accuracy,” “intelligence,” “charisma,” and “socials.” Additionally, with your initial stats, each character starts with 100 LP (Life Points) that determine your total health during the game, along with 2 healing potions that can be used if things go wrong during gameplay.
+
+Once the game begins, you must choose your character's class. The available options are “Bandit,” “Sorcerer,” “Necromancer,” “Druid,” and “Paladin.” Classes don't have special functionalities at the moment, but each character has different starting messages and distinct abilities that are mentioned at the start of the game, right after choosing your class. After selecting the class, you must choose a name for your character.
+
+After selecting the class and your name, you will be invited to roll some dice to randomly determine your character's initial stats. You can roll the dice as many times as you want until you are satisfied with the random outcome of all your character's stats. Once this step is complete, two introductory messages will be presented, and then the game begins.
+
+In summary, the game consists of a series of 10 math problems with three levels of difficulty: easy, medium, and hard. Each of these levels has problems with 1, 2, or 3 digits respectively. The problems are presented one by one for the player to solve correctly. These problems involve subtraction, addition, and multiplication with one, two, or three digits, as mentioned at the beginning. By answering a problem correctly, you advance in the game. However, if you answer incorrectly, 30 LP will be deducted from your character. If you lose all 100 starting LP, you are disqualified from the game. But if you finish the 10 questions with remaining LP, you win the game, and a congratulatory message will be shown to the winner before the game closes.
+
+An interesting detail is the implementation of features related to the stats mentioned before. Charisma, Intelligence, and Strength have effects on your journey through the game. Since stats range from 0 to 10, if you achieve a value of 8 or higher in Charisma, you will have a second chance each time you answer a question incorrectly. This is especially useful for hard-level problems. If you achieve a value of 8 or higher in Intelligence, a message will be given only at the start of the game, providing a vague hint to help you solve the riddles. On the other hand, if you achieve a value of 8 or higher in Strength, you will gain 5 LP each time you answer correctly, thus healing your character's points with every correct answer.
