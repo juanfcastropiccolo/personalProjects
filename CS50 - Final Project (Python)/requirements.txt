@@ -1,0 +1,7 @@
+# project.py
+random library
+
+# test_project.py
+from project import roll_dice, get_character, math_problem_generator, game_round
+from project import Character, Bandit, Sorcerer, Necromancer, Druid, Paladin
+import pytest
